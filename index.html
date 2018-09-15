@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,20 @@
     <title>Dicey Business</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
-    
+    <div id="container">
+        <h1>Dicey Business</h1>
+        <button id="mk-die-button" class="button">Generate Die</button>
+        <button id="roll-dice" class="button">Roll Dice</button>
+        <p>Click a die to reroll an individual die.</p>
+        <p>Double click a die to remove it.</p>
+        <p>Dice Total:    <span id="dice-sum">0</span></p>
+        <div id="dice-container"></div>
+    </div>
+
+
     <script src="app.js"></script>
 </body>
+
 </html>
